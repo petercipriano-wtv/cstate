@@ -43,7 +43,7 @@
 
 # What is your status page called?
 # Shows up in the browser bar and meta tags
-title: Eggsample Status
+title: ShareStudio
 
 # Should posts, which have a publish date
 # from the future, be built? Useful for
@@ -97,7 +97,7 @@ defaultContentLanguage: en
 #
 # Broken example:
 # baseUrl: /
-baseURL: https://example.com
+baseURL: https://status-shst-cstate.world-television.com
 
 # For features like Last modified, you
 # need to use a Git repository. If you
@@ -143,9 +143,9 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   categories:
-    - name: North Coast
+    - name: ShareStudio
       description: The main servers are located here.
-      closed: true
+      closed: false
     - name: Empty Category
     - name: Uncategorized
       untitled: true
@@ -158,16 +158,10 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
-    - name: Gateway
-      category: North Coast
-    - name: Backup Gateway
-      category: North Coast
-    - name: API
-      description: The guts of the application.
-      category: Uncategorized
-    - name: Media Proxy
-      description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
-      category: Uncategorized
+    - name: Speaker API
+      category: ShareStudio
+    - name: Portal
+      category: ShareStudio
 
   # What date format to use?
   #
